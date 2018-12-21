@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+
+  roles:
+    - role: twillin912.template
